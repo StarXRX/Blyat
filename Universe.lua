@@ -695,17 +695,7 @@ function OrionLib:MakeWindow(WindowConfig)
 			ImageTransparency = 1
 		})
 
-		local LoadSequenceText = SetProps(MakeElement("Label", WindowConfig.IntroText, 14), {
-			Parent = Orion,
-			Size = UDim2.new(1, 0, 1, 0),
-			AnchorPoint = Vector2.new(0.5, 0.5),
-			Position = UDim2.new(0.5, 19, 0.5, 0),
-			TextXAlignment = Enum.TextXAlignment.Center,
-			Font = Enum.Font.GothamBold,
-			TextTransparency = 1
-		})
-
-		local LoadSequenceText2 = SetProps(MakeElement("Label", "Universe is beautiful.", 14), {
+				local LoadSequenceText = SetProps(MakeElement("Label", "Id like to win.", 14), {
 			Parent = Orion,
 			Size = UDim2.new(1, 0, 1, 0),
 			AnchorPoint = Vector2.new(0.5, 0.5),

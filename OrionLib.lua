@@ -705,7 +705,7 @@ function OrionLib:MakeWindow(WindowConfig)
 			TextTransparency = 1
 		})
 
-		local LoadSequenceText2 = SetProps(MakeElement("Label", "by Guerric", 14), {
+		local LoadSequenceText2 = SetProps(MakeElement("Label", "by Aether", 14), {
 			Parent = Orion,
 			Size = UDim2.new(1, 0, 1, 0),
 			AnchorPoint = Vector2.new(0.5, 0.5),
